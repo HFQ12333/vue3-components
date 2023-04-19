@@ -1,12 +1,14 @@
-import * as t from "./src/index.mjs";
-import { Button as s } from "./src/button/index.mjs";
-const n = {
-  install: (o) => {
-    for (let e in t)
-      o.use(t[e]);
+import * as o from "./src/index.mjs";
+import { Button as i } from "./src/button/index.mjs";
+import { Icon as x } from "./src/icon/index.mjs";
+const r = {
+  install: (t) => {
+    for (let e in o)
+      t.use(o[e]);
   }
 };
 export {
-  s as Button,
-  n as default
+  i as Button,
+  x as Icon,
+  r as default
 };

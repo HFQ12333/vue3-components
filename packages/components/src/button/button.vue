@@ -1,4 +1,3 @@
-// button.vue
 <template>
   <button class="ea-button" :class="buttonStyle"><slot /></button>
 </template>

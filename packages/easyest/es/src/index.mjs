@@ -1,4 +1,6 @@
-import { Button as r } from "./button/index.mjs";
+import { Button as t } from "./button/index.mjs";
+import { Icon as f } from "./icon/index.mjs";
 export {
-  r as Button
+  t as Button,
+  f as Icon
 };
