@@ -1,0 +1,57 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "@easyest/b",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC"
+    },
+    "prefix": "C:\\KGComponents\\vue3-components\\packages\\b"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "C:\\Users\\daojia\\AppData\\Local\\pnpm\\store\\v3",
+    "virtualStoreDir": "C:\\KGComponents\\vue3-components\\packages\\b\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "C:\\KGComponents\\vue3-components\\packages\\b",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:update-check": {
+    "currentVersion": "7.0.0",
+    "latestVersion": "7.0.0"
+  },
+  "5 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "@easyest/a is not in the npm registry, or you have no permission to fetch it.\n\nAn authorization header was used: Basic YWRt[hidden]",
+    "request": {
+      "authHeaderValue": "Basic YWRtaW46YWRpbg==",
+      "url": "https://registry-npm.daojia-inc.com/@easyest%2Fa"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "@easyest/a",
+    "spec": {
+      "fetchSpec": "latest",
+      "name": "@easyest/a",
+      "type": "tag"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry-npm.daojia-inc.com/@easyest%2Fa: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET https://registry-npm.daojia-inc.com/@easyest%2Fa: Not Found - 404\n    at RetryOperation._fn (C:\\Users\\daojia\\AppData\\Roaming\\nvm\\v16.14.1\\node_modules\\pnpm\\dist\\pnpm.cjs:84259:19)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}
