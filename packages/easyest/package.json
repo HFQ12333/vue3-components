@@ -1,0 +1,20 @@
+{
+  "name": "easyest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "es/index.mjs",
+  "module": "es/index.mjs",
+  "files": ["es"],
+  "scripts": {
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HFQ12333/vue3-components"
+  },
+  "keywords": ["easyest", "vue3组件库"],
+  "sideEffects": ["**/*.css"],
+  "author": "hufq",
+  "license": "MIT",
+  "typings": "es/index.d.ts"
+}
