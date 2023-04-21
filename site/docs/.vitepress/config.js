@@ -1,6 +1,7 @@
 export default {
   themeConfig: {
     siteTitle: "vitepress",
+    base: process.env.NODE_ENV === 'production' ? '/easyest/' : '/',
     nav: [
       { text: "指南", link: "/guild/installation/" },
       { text: "组件", link: "/components/button/" },
