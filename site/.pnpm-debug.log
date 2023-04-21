@@ -1,0 +1,3323 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 6,
+    "total": 6,
+    "workspacePrefix": "C:\\KGComponents\\vue3-components"
+  },
+  "1 info pnpm": {
+    "message": "Recreating C:\\KGComponents\\vue3-components\\node_modules",
+    "prefix": "C:\\KGComponents\\vue3-components"
+  },
+  "2 info pnpm": {
+    "message": "Recreating C:\\KGComponents\\vue3-components\\packages\\components\\node_modules",
+    "prefix": "C:\\KGComponents\\vue3-components\\packages\\components"
+  },
+  "3 info pnpm": {
+    "message": "Recreating C:\\KGComponents\\vue3-components\\packages\\easyest\\node_modules",
+    "prefix": "C:\\KGComponents\\vue3-components\\packages\\easyest"
+  },
+  "4 info pnpm": {
+    "message": "Recreating C:\\KGComponents\\vue3-components\\packages\\utils\\node_modules",
+    "prefix": "C:\\KGComponents\\vue3-components\\packages\\utils"
+  },
+  "5 info pnpm": {
+    "message": "Recreating C:\\KGComponents\\vue3-components\\site\\node_modules",
+    "prefix": "C:\\KGComponents\\vue3-components\\site"
+  },
+  "6 info pnpm": {
+    "message": "Recreating C:\\KGComponents\\vue3-components\\play\\node_modules",
+    "prefix": "C:\\KGComponents\\vue3-components\\play"
+  },
+  "7 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "vue3-components",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "build:easyest": "gulp -f packages/components/script/build/index.ts",
+        "publish:easyest": "gulp -f packages/components/script/publish/index.ts"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "devDependencies": {
+        "@types/gulp": "^4.0.10",
+        "@types/gulp-autoprefixer": "^0.0.33",
+        "@types/gulp-less": "^0.0.32",
+        "@types/node": "^18.13.0",
+        "@typescript-eslint/eslint-plugin": "^5.54.0",
+        "@typescript-eslint/parser": "^5.54.0",
+        "@vitejs/plugin-legacy": "^4.0.1",
+        "@vitejs/plugin-vue": "^4.0.0",
+        "@vue/runtime-core": "^3.2.47",
+        "@vue/test-utils": "^2.3.1",
+        "c8": "^7.13.0",
+        "eslint": "^8.35.0",
+        "eslint-config-prettier": "^8.6.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-vue": "^9.9.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^8.0.0",
+        "gulp-less": "^5.0.0",
+        "happy-dom": "^8.9.0",
+        "less": "^4.1.3",
+        "postcss-html": "^1.5.0",
+        "prettier": "^2.8.4",
+        "release-it": "^15.6.0",
+        "stylelint": "^15.2.0",
+        "stylelint-config-prettier": "^9.0.5",
+        "stylelint-config-recess-order": "^4.0.0",
+        "stylelint-config-recommended-less": "^1.0.4",
+        "stylelint-config-recommended-vue": "^1.4.0",
+        "stylelint-config-standard": "^30.0.1",
+        "stylelint-prettier": "^3.0.0",
+        "sucrase": "^3.29.0",
+        "typescript": "^4.9.5",
+        "unplugin-vue-define-options": "^1.2.1",
+        "vite": "^3.0.9",
+        "vite-plugin-dts": "^1.4.1",
+        "vitest": "^0.29.2",
+        "vue": "^3.2.36"
+      }
+    },
+    "prefix": "C:\\KGComponents\\vue3-components"
+  },
+  "8 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "@easyest/components",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "build": "vite build"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC"
+    },
+    "prefix": "C:\\KGComponents\\vue3-components\\packages\\components"
+  },
+  "9 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "easyest-hufq",
+      "version": "1.1.1",
+      "description": "",
+      "main": "lib/index.js",
+      "module": "es/index.mjs",
+      "files": [
+        "es",
+        "lib"
+      ],
+      "scripts": {
+        "release": "release-it"
+      },
+      "repository": {
+        "type": "git",
+        "url": "http://git.kg-inc.cn/fe-sy-lahuo/driver-vue3-components"
+      },
+      "keywords": [
+        "easyest",
+        "vue3组件库"
+      ],
+      "sideEffects": [
+        "**/*.css"
+      ],
+      "author": "hufq",
+      "license": "MIT",
+      "typings": "lib/index.d.ts"
+    },
+    "prefix": "C:\\KGComponents\\vue3-components\\packages\\easyest"
+  },
+  "10 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "@easyest/utils",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC"
+    },
+    "prefix": "C:\\KGComponents\\vue3-components\\packages\\utils"
+  },
+  "11 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "site",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "docs:dev": "vitepress dev docs",
+        "docs:build": "vitepress build docs",
+        "docs:preview": "vitepress preview docs"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "devDependencies": {
+        "vitepress": "1.0.0-alpha.72",
+        "vue": "^3.2.36"
+      }
+    },
+    "prefix": "C:\\KGComponents\\vue3-components\\site"
+  },
+  "12 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "play",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "dev": "vite"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "devDependencies": {
+        "@vitejs/plugin-vue": "^4.1.0",
+        "vite": "^4.2.1"
+      },
+      "dependencies": {
+        "@easyest/components": "workspace:^1.0.0"
+      }
+    },
+    "prefix": "C:\\KGComponents\\vue3-components\\play"
+  },
+  "13 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "C:\\Users\\daojia\\AppData\\Local\\pnpm\\store\\v3",
+    "virtualStoreDir": "C:\\KGComponents\\vue3-components\\node_modules\\.pnpm"
+  },
+  "14 debug pnpm:stage": {
+    "prefix": "C:\\KGComponents\\vue3-components",
+    "stage": "resolution_started"
+  },
+  "15 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/vitepress/1.0.0-alpha.72",
+    "wanted": {
+      "dependentId": "site",
+      "name": "vitepress",
+      "rawSpec": "1.0.0-alpha.72"
+    }
+  },
+  "16 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/vue/3.2.47",
+    "wanted": {
+      "dependentId": "site",
+      "name": "vue",
+      "rawSpec": "^3.2.36"
+    }
+  },
+  "17 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/vitepress/1.0.0-alpha.72",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "18 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/vitepress/1.0.0-alpha.72",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/vue/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "20 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/vue/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "21 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@docsearch/css/3.3.3",
+    "wanted": {
+      "dependentId": "/vitepress/1.0.0-alpha.72",
+      "name": "@docsearch/css",
+      "rawSpec": "^3.3.3"
+    }
+  },
+  "22 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@docsearch/js/3.3.3",
+    "wanted": {
+      "dependentId": "/vitepress/1.0.0-alpha.72",
+      "name": "@docsearch/js",
+      "rawSpec": "^3.3.3"
+    }
+  },
+  "23 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vitejs/plugin-vue/4.1.0",
+    "wanted": {
+      "dependentId": "/vitepress/1.0.0-alpha.72",
+      "name": "@vitejs/plugin-vue",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "24 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/devtools-api/6.5.0",
+    "wanted": {
+      "dependentId": "/vitepress/1.0.0-alpha.72",
+      "name": "@vue/devtools-api",
+      "rawSpec": "^6.5.0"
+    }
+  },
+  "25 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vueuse/core/10.0.2",
+    "wanted": {
+      "dependentId": "/vitepress/1.0.0-alpha.72",
+      "name": "@vueuse/core",
+      "rawSpec": "^10.0.2"
+    }
+  },
+  "26 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/body-scroll-lock/4.0.0-beta.0",
+    "wanted": {
+      "dependentId": "/vitepress/1.0.0-alpha.72",
+      "name": "body-scroll-lock",
+      "rawSpec": "4.0.0-beta.0"
+    }
+  },
+  "27 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/mark.js/8.11.1",
+    "wanted": {
+      "dependentId": "/vitepress/1.0.0-alpha.72",
+      "name": "mark.js",
+      "rawSpec": "^8.11.1"
+    }
+  },
+  "28 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/minisearch/6.0.1",
+    "wanted": {
+      "dependentId": "/vitepress/1.0.0-alpha.72",
+      "name": "minisearch",
+      "rawSpec": "^6.0.1"
+    }
+  },
+  "29 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/shiki/0.14.1",
+    "wanted": {
+      "dependentId": "/vitepress/1.0.0-alpha.72",
+      "name": "shiki",
+      "rawSpec": "^0.14.1"
+    }
+  },
+  "30 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/vite/4.2.2",
+    "wanted": {
+      "dependentId": "/vitepress/1.0.0-alpha.72",
+      "name": "vite",
+      "rawSpec": "^4.2.1"
+    }
+  },
+  "31 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/vue/3.2.47",
+    "wanted": {
+      "dependentId": "/vitepress/1.0.0-alpha.72",
+      "name": "vue",
+      "rawSpec": "^3.2.47"
+    }
+  },
+  "32 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/shared/3.2.47",
+    "wanted": {
+      "dependentId": "/vue/3.2.47",
+      "name": "@vue/shared",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "33 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/compiler-dom/3.2.47",
+    "wanted": {
+      "dependentId": "/vue/3.2.47",
+      "name": "@vue/compiler-dom",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "34 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/runtime-dom/3.2.47",
+    "wanted": {
+      "dependentId": "/vue/3.2.47",
+      "name": "@vue/runtime-dom",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "35 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/compiler-sfc/3.2.47",
+    "wanted": {
+      "dependentId": "/vue/3.2.47",
+      "name": "@vue/compiler-sfc",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "36 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/server-renderer/3.2.47",
+    "wanted": {
+      "dependentId": "/vue/3.2.47",
+      "name": "@vue/server-renderer",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "37 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vitejs/plugin-vue/4.1.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "38 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vitejs/plugin-vue/4.1.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "39 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@docsearch/css/3.3.3",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "40 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@docsearch/css/3.3.3",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "41 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@docsearch/js/3.3.3",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "42 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@docsearch/js/3.3.3",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "43 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vueuse/core/10.0.2",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "44 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vueuse/core/10.0.2",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "45 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/body-scroll-lock/4.0.0-beta.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "46 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/body-scroll-lock/4.0.0-beta.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "47 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/vite/4.2.2",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "48 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/vite/4.2.2",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "49 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/minisearch/6.0.1",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "50 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/minisearch/6.0.1",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "51 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/devtools-api/6.5.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "52 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/devtools-api/6.5.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "53 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/shared/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "54 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/shared/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "55 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/shiki/0.14.1",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "56 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/shiki/0.14.1",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "57 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/compiler-dom/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "58 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/compiler-dom/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "59 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/runtime-dom/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "60 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/runtime-dom/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "61 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/compiler-sfc/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "62 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/compiler-sfc/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "63 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/mark.js/8.11.1",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "64 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/mark.js/8.11.1",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "65 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@docsearch/react/3.3.3",
+    "wanted": {
+      "dependentId": "/@docsearch/js/3.3.3",
+      "name": "@docsearch/react",
+      "rawSpec": "3.3.3"
+    }
+  },
+  "66 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/preact/10.13.2",
+    "wanted": {
+      "dependentId": "/@docsearch/js/3.3.3",
+      "name": "preact",
+      "rawSpec": "^10.0.0"
+    }
+  },
+  "67 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@types/web-bluetooth/0.0.16",
+    "wanted": {
+      "dependentId": "/@vueuse/core/10.0.2",
+      "name": "@types/web-bluetooth",
+      "rawSpec": "^0.0.16"
+    }
+  },
+  "68 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vueuse/metadata/10.0.2",
+    "wanted": {
+      "dependentId": "/@vueuse/core/10.0.2",
+      "name": "@vueuse/metadata",
+      "rawSpec": "10.0.2"
+    }
+  },
+  "69 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vueuse/shared/10.0.2",
+    "wanted": {
+      "dependentId": "/@vueuse/core/10.0.2",
+      "name": "@vueuse/shared",
+      "rawSpec": "10.0.2"
+    }
+  },
+  "70 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/vue-demi/0.14.0",
+    "wanted": {
+      "dependentId": "/@vueuse/core/10.0.2",
+      "name": "vue-demi",
+      "rawSpec": ">=0.14.0"
+    }
+  },
+  "71 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/esbuild/0.17.17",
+    "wanted": {
+      "dependentId": "/vite/4.2.2",
+      "name": "esbuild",
+      "rawSpec": "^0.17.5"
+    }
+  },
+  "72 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/postcss/8.4.22",
+    "wanted": {
+      "dependentId": "/vite/4.2.2",
+      "name": "postcss",
+      "rawSpec": "^8.4.21"
+    }
+  },
+  "73 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/resolve/1.22.2",
+    "wanted": {
+      "dependentId": "/vite/4.2.2",
+      "name": "resolve",
+      "rawSpec": "^1.22.1"
+    }
+  },
+  "74 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/rollup/3.20.6",
+    "wanted": {
+      "dependentId": "/vite/4.2.2",
+      "name": "rollup",
+      "rawSpec": "^3.18.0"
+    }
+  },
+  "75 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/ansi-sequence-parser/1.1.0",
+    "wanted": {
+      "dependentId": "/shiki/0.14.1",
+      "name": "ansi-sequence-parser",
+      "rawSpec": "^1.1.0"
+    }
+  },
+  "76 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/jsonc-parser/3.2.0",
+    "wanted": {
+      "dependentId": "/shiki/0.14.1",
+      "name": "jsonc-parser",
+      "rawSpec": "^3.2.0"
+    }
+  },
+  "77 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/vscode-oniguruma/1.7.0",
+    "wanted": {
+      "dependentId": "/shiki/0.14.1",
+      "name": "vscode-oniguruma",
+      "rawSpec": "^1.7.0"
+    }
+  },
+  "78 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/vscode-textmate/8.0.0",
+    "wanted": {
+      "dependentId": "/shiki/0.14.1",
+      "name": "vscode-textmate",
+      "rawSpec": "^8.0.0"
+    }
+  },
+  "79 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/server-renderer/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "80 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/server-renderer/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "81 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/shared/3.2.47",
+    "wanted": {
+      "dependentId": "/@vue/compiler-dom/3.2.47",
+      "name": "@vue/shared",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "82 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/compiler-core/3.2.47",
+    "wanted": {
+      "dependentId": "/@vue/compiler-dom/3.2.47",
+      "name": "@vue/compiler-core",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "83 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/shared/3.2.47",
+    "wanted": {
+      "dependentId": "/@vue/runtime-dom/3.2.47",
+      "name": "@vue/shared",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "84 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/runtime-core/3.2.47",
+    "wanted": {
+      "dependentId": "/@vue/runtime-dom/3.2.47",
+      "name": "@vue/runtime-core",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "85 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/csstype/2.6.21",
+    "wanted": {
+      "dependentId": "/@vue/runtime-dom/3.2.47",
+      "name": "csstype",
+      "rawSpec": "^2.6.8"
+    }
+  },
+  "86 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@babel/parser/7.21.4",
+    "wanted": {
+      "dependentId": "/@vue/compiler-sfc/3.2.47",
+      "name": "@babel/parser",
+      "rawSpec": "^7.16.4"
+    }
+  },
+  "87 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/compiler-core/3.2.47",
+    "wanted": {
+      "dependentId": "/@vue/compiler-sfc/3.2.47",
+      "name": "@vue/compiler-core",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "88 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/compiler-dom/3.2.47",
+    "wanted": {
+      "dependentId": "/@vue/compiler-sfc/3.2.47",
+      "name": "@vue/compiler-dom",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "89 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/compiler-ssr/3.2.47",
+    "wanted": {
+      "dependentId": "/@vue/compiler-sfc/3.2.47",
+      "name": "@vue/compiler-ssr",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "90 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/reactivity-transform/3.2.47",
+    "wanted": {
+      "dependentId": "/@vue/compiler-sfc/3.2.47",
+      "name": "@vue/reactivity-transform",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "91 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/shared/3.2.47",
+    "wanted": {
+      "dependentId": "/@vue/compiler-sfc/3.2.47",
+      "name": "@vue/shared",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "92 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/estree-walker/2.0.2",
+    "wanted": {
+      "dependentId": "/@vue/compiler-sfc/3.2.47",
+      "name": "estree-walker",
+      "rawSpec": "^2.0.2"
+    }
+  },
+  "93 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/magic-string/0.25.9",
+    "wanted": {
+      "dependentId": "/@vue/compiler-sfc/3.2.47",
+      "name": "magic-string",
+      "rawSpec": "^0.25.7"
+    }
+  },
+  "94 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/source-map/0.6.1",
+    "wanted": {
+      "dependentId": "/@vue/compiler-sfc/3.2.47",
+      "name": "source-map",
+      "rawSpec": "^0.6.1"
+    }
+  },
+  "95 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/postcss/8.4.22",
+    "wanted": {
+      "dependentId": "/@vue/compiler-sfc/3.2.47",
+      "name": "postcss",
+      "rawSpec": "^8.1.10"
+    }
+  },
+  "96 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/shared/3.2.47",
+    "wanted": {
+      "dependentId": "/@vue/server-renderer/3.2.47",
+      "name": "@vue/shared",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "97 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/compiler-ssr/3.2.47",
+    "wanted": {
+      "dependentId": "/@vue/server-renderer/3.2.47",
+      "name": "@vue/compiler-ssr",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "98 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vueuse/metadata/10.0.2",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "99 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vueuse/metadata/10.0.2",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "100 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@docsearch/react/3.3.3",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "101 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@docsearch/react/3.3.3",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "102 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/preact/10.13.2",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "103 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/preact/10.13.2",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "104 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/autocomplete-core/1.7.4",
+    "wanted": {
+      "dependentId": "/@docsearch/react/3.3.3",
+      "name": "@algolia/autocomplete-core",
+      "rawSpec": "1.7.4"
+    }
+  },
+  "105 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/autocomplete-preset-algolia/1.7.4",
+    "wanted": {
+      "dependentId": "/@docsearch/react/3.3.3",
+      "name": "@algolia/autocomplete-preset-algolia",
+      "rawSpec": "1.7.4"
+    }
+  },
+  "106 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@docsearch/css/3.3.3",
+    "wanted": {
+      "dependentId": "/@docsearch/react/3.3.3",
+      "name": "@docsearch/css",
+      "rawSpec": "3.3.3"
+    }
+  },
+  "107 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/algoliasearch/4.17.0",
+    "wanted": {
+      "dependentId": "/@docsearch/react/3.3.3",
+      "name": "algoliasearch",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "108 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/vue-demi/0.14.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "109 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/vue-demi/0.14.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "110 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@types/web-bluetooth/0.0.16",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "111 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@types/web-bluetooth/0.0.16",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "112 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vueuse/shared/10.0.2",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "113 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vueuse/shared/10.0.2",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "114 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/vue-demi/0.14.0",
+    "wanted": {
+      "dependentId": "/@vueuse/shared/10.0.2",
+      "name": "vue-demi",
+      "rawSpec": ">=0.14.0"
+    }
+  },
+  "115 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/esbuild/0.17.17",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "116 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/esbuild/0.17.17",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "117 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/postcss/8.4.22",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "118 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/postcss/8.4.22",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "119 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/resolve/1.22.2",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "120 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/resolve/1.22.2",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "121 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/rollup/3.20.6",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "122 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/rollup/3.20.6",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "123 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/ansi-sequence-parser/1.1.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "124 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/ansi-sequence-parser/1.1.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "125 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/jsonc-parser/3.2.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "126 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/jsonc-parser/3.2.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "127 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/vscode-oniguruma/1.7.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "128 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/vscode-oniguruma/1.7.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "129 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/vscode-textmate/8.0.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "130 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/vscode-textmate/8.0.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "131 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/compiler-core/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "132 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/compiler-core/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "133 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/shared/3.2.47",
+    "wanted": {
+      "dependentId": "/@vue/compiler-core/3.2.47",
+      "name": "@vue/shared",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "134 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@babel/parser/7.21.4",
+    "wanted": {
+      "dependentId": "/@vue/compiler-core/3.2.47",
+      "name": "@babel/parser",
+      "rawSpec": "^7.16.4"
+    }
+  },
+  "135 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/estree-walker/2.0.2",
+    "wanted": {
+      "dependentId": "/@vue/compiler-core/3.2.47",
+      "name": "estree-walker",
+      "rawSpec": "^2.0.2"
+    }
+  },
+  "136 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/source-map/0.6.1",
+    "wanted": {
+      "dependentId": "/@vue/compiler-core/3.2.47",
+      "name": "source-map",
+      "rawSpec": "^0.6.1"
+    }
+  },
+  "137 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/csstype/2.6.21",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "138 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/csstype/2.6.21",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "139 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/runtime-core/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "140 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/runtime-core/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "141 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/shared/3.2.47",
+    "wanted": {
+      "dependentId": "/@vue/runtime-core/3.2.47",
+      "name": "@vue/shared",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "142 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/reactivity/3.2.47",
+    "wanted": {
+      "dependentId": "/@vue/runtime-core/3.2.47",
+      "name": "@vue/reactivity",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "143 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/compiler-ssr/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "144 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/compiler-ssr/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "145 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/reactivity-transform/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "146 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/reactivity-transform/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "147 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@babel/parser/7.21.4",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "148 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@babel/parser/7.21.4",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "149 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/magic-string/0.25.9",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "150 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/magic-string/0.25.9",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "151 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/estree-walker/2.0.2",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "152 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/estree-walker/2.0.2",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "153 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/source-map/0.6.1",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "154 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/source-map/0.6.1",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "155 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/shared/3.2.47",
+    "wanted": {
+      "dependentId": "/@vue/compiler-ssr/3.2.47",
+      "name": "@vue/shared",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "156 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/compiler-dom/3.2.47",
+    "wanted": {
+      "dependentId": "/@vue/compiler-ssr/3.2.47",
+      "name": "@vue/compiler-dom",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "157 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@babel/parser/7.21.4",
+    "wanted": {
+      "dependentId": "/@vue/reactivity-transform/3.2.47",
+      "name": "@babel/parser",
+      "rawSpec": "^7.16.4"
+    }
+  },
+  "158 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/compiler-core/3.2.47",
+    "wanted": {
+      "dependentId": "/@vue/reactivity-transform/3.2.47",
+      "name": "@vue/compiler-core",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "159 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/shared/3.2.47",
+    "wanted": {
+      "dependentId": "/@vue/reactivity-transform/3.2.47",
+      "name": "@vue/shared",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "160 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/estree-walker/2.0.2",
+    "wanted": {
+      "dependentId": "/@vue/reactivity-transform/3.2.47",
+      "name": "estree-walker",
+      "rawSpec": "^2.0.2"
+    }
+  },
+  "161 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/magic-string/0.25.9",
+    "wanted": {
+      "dependentId": "/@vue/reactivity-transform/3.2.47",
+      "name": "magic-string",
+      "rawSpec": "^0.25.7"
+    }
+  },
+  "162 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/sourcemap-codec/1.4.8",
+    "wanted": {
+      "dependentId": "/magic-string/0.25.9",
+      "name": "sourcemap-codec",
+      "rawSpec": "^1.4.8"
+    }
+  },
+  "163 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/autocomplete-preset-algolia/1.7.4",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "164 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/autocomplete-preset-algolia/1.7.4",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "165 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/autocomplete-core/1.7.4",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "166 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/autocomplete-core/1.7.4",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "167 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/algoliasearch/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "168 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/algoliasearch/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "169 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/autocomplete-shared/1.7.4",
+    "wanted": {
+      "dependentId": "/@algolia/autocomplete-preset-algolia/1.7.4",
+      "name": "@algolia/autocomplete-shared",
+      "rawSpec": "1.7.4"
+    }
+  },
+  "170 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/autocomplete-shared/1.7.4",
+    "wanted": {
+      "dependentId": "/@algolia/autocomplete-core/1.7.4",
+      "name": "@algolia/autocomplete-shared",
+      "rawSpec": "1.7.4"
+    }
+  },
+  "171 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/cache-browser-local-storage/4.17.0",
+    "wanted": {
+      "dependentId": "/algoliasearch/4.17.0",
+      "name": "@algolia/cache-browser-local-storage",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "172 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/cache-common/4.17.0",
+    "wanted": {
+      "dependentId": "/algoliasearch/4.17.0",
+      "name": "@algolia/cache-common",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "173 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/cache-in-memory/4.17.0",
+    "wanted": {
+      "dependentId": "/algoliasearch/4.17.0",
+      "name": "@algolia/cache-in-memory",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "174 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/client-account/4.17.0",
+    "wanted": {
+      "dependentId": "/algoliasearch/4.17.0",
+      "name": "@algolia/client-account",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "175 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/client-analytics/4.17.0",
+    "wanted": {
+      "dependentId": "/algoliasearch/4.17.0",
+      "name": "@algolia/client-analytics",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "176 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/client-common/4.17.0",
+    "wanted": {
+      "dependentId": "/algoliasearch/4.17.0",
+      "name": "@algolia/client-common",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "177 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/client-personalization/4.17.0",
+    "wanted": {
+      "dependentId": "/algoliasearch/4.17.0",
+      "name": "@algolia/client-personalization",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "178 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/client-search/4.17.0",
+    "wanted": {
+      "dependentId": "/algoliasearch/4.17.0",
+      "name": "@algolia/client-search",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "179 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/logger-common/4.17.0",
+    "wanted": {
+      "dependentId": "/algoliasearch/4.17.0",
+      "name": "@algolia/logger-common",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "180 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/logger-console/4.17.0",
+    "wanted": {
+      "dependentId": "/algoliasearch/4.17.0",
+      "name": "@algolia/logger-console",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "181 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/requester-browser-xhr/4.17.0",
+    "wanted": {
+      "dependentId": "/algoliasearch/4.17.0",
+      "name": "@algolia/requester-browser-xhr",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "182 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/requester-common/4.17.0",
+    "wanted": {
+      "dependentId": "/algoliasearch/4.17.0",
+      "name": "@algolia/requester-common",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "183 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/requester-node-http/4.17.0",
+    "wanted": {
+      "dependentId": "/algoliasearch/4.17.0",
+      "name": "@algolia/requester-node-http",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "184 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/transporter/4.17.0",
+    "wanted": {
+      "dependentId": "/algoliasearch/4.17.0",
+      "name": "@algolia/transporter",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "185 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/reactivity/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "186 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@vue/reactivity/3.2.47",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "187 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@vue/shared/3.2.47",
+    "wanted": {
+      "dependentId": "/@vue/reactivity/3.2.47",
+      "name": "@vue/shared",
+      "rawSpec": "3.2.47"
+    }
+  },
+  "188 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/sourcemap-codec/1.4.8",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "189 debug pnpm:deprecation": {
+    "deprecated": "Please use @jridgewell/sourcemap-codec instead",
+    "depth": 3,
+    "pkgId": "registry-npm.daojia-inc.com/sourcemap-codec/1.4.8",
+    "pkgName": "sourcemap-codec",
+    "pkgVersion": "1.4.8",
+    "prefix": "C:\\KGComponents\\vue3-components\\site"
+  },
+  "190 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/sourcemap-codec/1.4.8",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "191 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/cache-common/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "192 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/cache-common/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "193 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/autocomplete-shared/1.7.4",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "194 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/autocomplete-shared/1.7.4",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "195 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/cache-in-memory/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "196 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/cache-in-memory/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "197 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/cache-browser-local-storage/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "198 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/cache-browser-local-storage/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "199 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/client-account/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "200 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/client-account/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "201 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/client-analytics/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "202 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/client-analytics/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "203 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/client-personalization/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "204 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/client-personalization/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "205 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/client-common/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "206 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/client-common/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "207 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/client-search/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "208 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/client-search/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "209 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/logger-common/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "210 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/logger-common/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "211 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/requester-browser-xhr/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "212 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/requester-browser-xhr/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "213 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/logger-console/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "214 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/logger-console/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "215 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/requester-common/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "216 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/requester-common/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "217 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/transporter/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "218 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/transporter/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "219 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/requester-node-http/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "found_in_store"
+  },
+  "220 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@algolia/requester-node-http/4.17.0",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "221 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/cache-common/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/cache-in-memory/4.17.0",
+      "name": "@algolia/cache-common",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "222 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/cache-common/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/cache-browser-local-storage/4.17.0",
+      "name": "@algolia/cache-common",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "223 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/client-common/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/client-account/4.17.0",
+      "name": "@algolia/client-common",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "224 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/client-search/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/client-account/4.17.0",
+      "name": "@algolia/client-search",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "225 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/transporter/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/client-account/4.17.0",
+      "name": "@algolia/transporter",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "226 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/client-common/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/client-analytics/4.17.0",
+      "name": "@algolia/client-common",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "227 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/client-search/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/client-analytics/4.17.0",
+      "name": "@algolia/client-search",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "228 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/requester-common/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/client-analytics/4.17.0",
+      "name": "@algolia/requester-common",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "229 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/transporter/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/client-analytics/4.17.0",
+      "name": "@algolia/transporter",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "230 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/client-common/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/client-personalization/4.17.0",
+      "name": "@algolia/client-common",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "231 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/requester-common/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/client-personalization/4.17.0",
+      "name": "@algolia/requester-common",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "232 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/transporter/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/client-personalization/4.17.0",
+      "name": "@algolia/transporter",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "233 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/requester-common/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/client-common/4.17.0",
+      "name": "@algolia/requester-common",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "234 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/transporter/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/client-common/4.17.0",
+      "name": "@algolia/transporter",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "235 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/client-common/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/client-search/4.17.0",
+      "name": "@algolia/client-common",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "236 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/requester-common/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/client-search/4.17.0",
+      "name": "@algolia/requester-common",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "237 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/transporter/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/client-search/4.17.0",
+      "name": "@algolia/transporter",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "238 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/requester-common/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/requester-browser-xhr/4.17.0",
+      "name": "@algolia/requester-common",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "239 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/logger-common/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/logger-console/4.17.0",
+      "name": "@algolia/logger-common",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "240 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/cache-common/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/transporter/4.17.0",
+      "name": "@algolia/cache-common",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "241 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/logger-common/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/transporter/4.17.0",
+      "name": "@algolia/logger-common",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "242 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/requester-common/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/transporter/4.17.0",
+      "name": "@algolia/requester-common",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "243 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@algolia/requester-common/4.17.0",
+    "wanted": {
+      "dependentId": "/@algolia/requester-node-http/4.17.0",
+      "name": "@algolia/requester-common",
+      "rawSpec": "4.17.0"
+    }
+  },
+  "244 debug pnpm:_dependency_resolved": {
+    "resolution": "registry-npm.daojia-inc.com/@types/gulp-autoprefixer/0.0.33",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@types/gulp-autoprefixer",
+      "rawSpec": "^0.0.33"
+    }
+  },
+  "245 debug pnpm:progress": {
+    "packageId": "registry-npm.daojia-inc.com/@types/gulp-autoprefixer/0.0.33",
+    "requester": "C:\\KGComponents\\vue3-components",
+    "status": "resolved"
+  },
+  "246 error pnpm": {
+    "code": "ERR_PNPM_NO_MATCHING_VERSION",
+    "packageMeta": {
+      "_id": "@types/gulp",
+      "_rev": "2094809",
+      "name": "@types/gulp",
+      "description": "TypeScript definitions for Gulp",
+      "dist-tags": {
+        "latest": "4.0.9",
+        "ts2.0": "4.0.6",
+        "ts2.1": "4.0.6",
+        "ts2.2": "4.0.6",
+        "ts2.3": "4.0.6",
+        "ts2.4": "4.0.6",
+        "ts2.5": "4.0.6",
+        "ts2.6": "4.0.6",
+        "ts2.7": "4.0.6",
+        "ts2.8": "4.0.6",
+        "ts2.9": "4.0.6",
+        "ts3.0": "4.0.6",
+        "ts3.1": "4.0.6",
+        "ts3.2": "4.0.7",
+        "ts3.3": "4.0.8",
+        "ts3.4": "4.0.8",
+        "ts3.5": "4.0.8",
+        "ts3.6": "4.0.9",
+        "ts3.7": "4.0.9",
+        "ts3.8": "4.0.9",
+        "ts3.9": "4.0.9",
+        "ts4.0": "4.0.9",
+        "ts4.1": "4.0.9",
+        "ts4.2": "4.0.9",
+        "ts4.3": "4.0.9",
+        "ts4.4": "4.0.9",
+        "ts4.5": "4.0.9",
+        "ts4.6": "4.0.9",
+        "ts4.7": "4.0.9"
+      },
+      "maintainers": [
+        {
+          "name": "types",
+          "email": "ts-npm-types@microsoft.com"
+        }
+      ],
+      "time": {
+        "modified": "2022-03-23T03:16:49.000Z",
+        "created": "2016-05-17T05:03:41.442Z",
+        "3.8.37": "2021-07-06T21:03:50.101Z",
+        "4.0.9": "2021-07-06T21:03:37.139Z",
+        "4.0.8": "2021-01-08T17:01:06.064Z",
+        "4.0.7": "2020-09-29T02:44:49.486Z",
+        "4.0.6": "2019-03-05T17:41:02.906Z",
+        "3.8.36": "2017-12-21T23:30:30.042Z",
+        "3.8.35": "2017-11-08T22:44:24.224Z",
+        "3.8.34": "2017-11-03T15:21:57.147Z",
+        "4.0.5": "2017-10-25T00:22:52.853Z",
+        "3.8.33": "2017-06-16T16:39:27.892Z",
+        "4.0.4": "2017-06-06T14:19:30.830Z",
+        "4.0.3": "2017-05-18T22:09:00.348Z",
+        "4.0.2": "2017-03-16T14:36:47.730Z",
+        "4.0.1": "2017-03-15T01:32:01.844Z",
+        "4.0.0": "2017-03-08T20:02:41.871Z",
+        "3.8.32": "2016-09-19T17:35:44.085Z",
+        "3.8.31": "2016-08-25T18:43:52.017Z",
+        "3.8.30": "2016-08-19T15:26:55.378Z",
+        "3.8.29": "2016-08-02T15:54:09.332Z",
+        "3.8.28": "2016-07-14T14:45:04.666Z",
+        "3.8.27-alpha": "2016-07-08T20:13:29.453Z",
+        "3.8.26-alpha": "2016-07-04T00:17:23.051Z",
+        "3.8.25-alpha": "2016-07-02T01:39:22.471Z",
+        "3.8.24-alpha": "2016-07-01T22:47:27.114Z",
+        "3.8.23-alpha": "2016-07-01T19:29:45.671Z",
+        "3.8.22-alpha": "2016-05-25T05:00:08.215Z",
+        "3.8.21-alpha": "2016-05-20T19:41:54.846Z",
+        "3.8.16-alpha": "2016-05-19T21:01:53.685Z",
+        "3.8.15-alpha": "2016-05-17T05:03:41.442Z"
+      },
+      "users": {
+        "azertypow": true
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/gulp"
+      },
+      "versions": {
+        "3.8.37": {
+          "name": "@types/gulp",
+          "version": "3.8.37",
+          "description": "TypeScript definitions for Gulp",
+          "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/gulp",
+          "license": "MIT",
+          "contributors": [
+            {
+              "name": "Drew Noakes",
+              "url": "https://drewnoakes.com"
+            }
+          ],
+          "main": "",
+          "types": "index.d.ts",
+          "repository": {
+            "type": "git",
+            "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+            "directory": "types/gulp"
+          },
+          "scripts": {},
+          "dependencies": {
+            "@types/node": "*",
+            "@types/orchestrator": "*",
+            "@types/vinyl": "*"
+          },
+          "typesPublisherContentHash": "d684d6f9d3797d116bd4eb40b4348484353e223c5f7badb490a6790854f83b07",
+          "typeScriptVersion": "3.6",
+          "_id": "@types/gulp@3.8.37",
+          "dist": {
+            "shasum": "e1073c146890eead74f3c0a44a179235192ae1ce",
+            "size": 4486,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-3.8.37.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-3.8.37.tgz"
+          },
+          "_npmUser": {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          },
+          "directories": {},
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmOperationalInternal": {
+            "host": "s3://npm-registry-packages",
+            "tmp": "tmp/gulp_3.8.37_1625605429944_0.874208307367087"
+          },
+          "_hasShrinkwrap": false,
+          "publish_time": 1625605430101,
+          "_cnpm_publish_time": 1625605430101,
+          "_cnpmcore_publish_time": "2021-12-16T17:14:06.738Z"
+        },
+        "4.0.9": {
+          "name": "@types/gulp",
+          "version": "4.0.9",
+          "description": "TypeScript definitions for Gulp",
+          "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/gulp",
+          "license": "MIT",
+          "contributors": [
+            {
+              "name": "Drew Noakes",
+              "url": "https://drewnoakes.com"
+            },
+            {
+              "name": "Juan Arroyave",
+              "url": "http://jarroyave.co"
+            },
+            {
+              "name": "Giedrius Grabauskas",
+              "url": "https://github.com/GiedriusGrabauskas",
+              "githubUsername": "GiedriusGrabauskas"
+            }
+          ],
+          "main": "",
+          "types": "index.d.ts",
+          "repository": {
+            "type": "git",
+            "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+            "directory": "types/gulp"
+          },
+          "scripts": {},
+          "dependencies": {
+            "@types/undertaker": "*",
+            "@types/vinyl-fs": "*",
+            "chokidar": "^3.3.1"
+          },
+          "typesPublisherContentHash": "b35639bea201ec6c8724c0fd22d8d63972da8311f1feb93caaca31e7337adc41",
+          "typeScriptVersion": "3.6",
+          "_id": "@types/gulp@4.0.9",
+          "dist": {
+            "shasum": "a2f9667bcc26bc72b4899dd16216d6584a12346c",
+            "size": 2688,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-4.0.9.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-4.0.9.tgz"
+          },
+          "_npmUser": {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          },
+          "directories": {},
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmOperationalInternal": {
+            "host": "s3://npm-registry-packages",
+            "tmp": "tmp/gulp_4.0.9_1625605417022_0.2327185225750441"
+          },
+          "_hasShrinkwrap": false,
+          "publish_time": 1625605417139,
+          "_cnpm_publish_time": 1625605417139,
+          "_cnpmcore_publish_time": "2021-12-16T17:14:06.975Z"
+        },
+        "4.0.8": {
+          "name": "@types/gulp",
+          "version": "4.0.8",
+          "description": "TypeScript definitions for Gulp",
+          "license": "MIT",
+          "contributors": [
+            {
+              "name": "Drew Noakes",
+              "url": "https://drewnoakes.com"
+            },
+            {
+              "name": "Juan Arroyave",
+              "url": "http://jarroyave.co"
+            },
+            {
+              "name": "Giedrius Grabauskas",
+              "url": "https://github.com/GiedriusGrabauskas",
+              "githubUsername": "GiedriusGrabauskas"
+            }
+          ],
+          "main": "",
+          "types": "index.d.ts",
+          "repository": {
+            "type": "git",
+            "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+            "directory": "types/gulp"
+          },
+          "scripts": {},
+          "dependencies": {
+            "@types/undertaker": "*",
+            "@types/vinyl-fs": "*",
+            "chokidar": "^3.3.1"
+          },
+          "typesPublisherContentHash": "647310a7b787b6149619273d833819f9f7e71d6490554c2cdc7edccc866789c4",
+          "typeScriptVersion": "3.3",
+          "_id": "@types/gulp@4.0.8",
+          "dist": {
+            "shasum": "a5e43764d400b9818dc79b5ffa86e22a94521037",
+            "size": 2659,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-4.0.8.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-4.0.8.tgz"
+          },
+          "_npmUser": {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          },
+          "directories": {},
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmOperationalInternal": {
+            "host": "s3://npm-registry-packages",
+            "tmp": "tmp/gulp_4.0.8_1610125265895_0.8984325978997809"
+          },
+          "_hasShrinkwrap": false,
+          "publish_time": 1610125266064,
+          "_cnpm_publish_time": 1610125266064,
+          "_cnpmcore_publish_time": "2021-12-16T17:14:07.238Z"
+        },
+        "4.0.7": {
+          "name": "@types/gulp",
+          "version": "4.0.7",
+          "description": "TypeScript definitions for Gulp",
+          "license": "MIT",
+          "contributors": [
+            {
+              "name": "Drew Noakes",
+              "url": "https://drewnoakes.com"
+            },
+            {
+              "name": "Juan Arroyave",
+              "url": "http://jarroyave.co"
+            },
+            {
+              "name": "Giedrius Grabauskas",
+              "url": "https://github.com/GiedriusGrabauskas",
+              "githubUsername": "GiedriusGrabauskas"
+            }
+          ],
+          "main": "",
+          "types": "index.d.ts",
+          "repository": {
+            "type": "git",
+            "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+            "directory": "types/gulp"
+          },
+          "scripts": {},
+          "dependencies": {
+            "@types/undertaker": "*",
+            "@types/vinyl-fs": "*",
+            "chokidar": "^3.3.1"
+          },
+          "typesPublisherContentHash": "fe4f2dfa68ad09cb3bcd09521ce1b4825ea07acb49a234709b14aeadfcf997ff",
+          "typeScriptVersion": "3.2",
+          "_id": "@types/gulp@4.0.7",
+          "dist": {
+            "shasum": "cf3928fc4d351284453e876b560ed271bababad5",
+            "size": 2647,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-4.0.7.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-4.0.7.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmUser": {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          },
+          "directories": {},
+          "_npmOperationalInternal": {
+            "host": "s3://npm-registry-packages",
+            "tmp": "tmp/gulp_4.0.7_1601347489358_0.6001122767723348"
+          },
+          "_hasShrinkwrap": false,
+          "publish_time": 1601347489486,
+          "_cnpm_publish_time": 1601347489486,
+          "_cnpmcore_publish_time": "2021-12-16T17:14:07.472Z"
+        },
+        "4.0.6": {
+          "name": "@types/gulp",
+          "version": "4.0.6",
+          "description": "TypeScript definitions for Gulp",
+          "license": "MIT",
+          "contributors": [
+            {
+              "name": "Drew Noakes",
+              "url": "https://drewnoakes.com"
+            },
+            {
+              "name": "Juan Arroyave",
+              "url": "http://jarroyave.co"
+            },
+            {
+              "name": "Giedrius Grabauskas",
+              "url": "https://github.com/GiedriusGrabauskas",
+              "githubUsername": "GiedriusGrabauskas"
+            }
+          ],
+          "main": "",
+          "types": "index",
+          "repository": {
+            "type": "git",
+            "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+            "directory": "types/gulp"
+          },
+          "scripts": {},
+          "dependencies": {
+            "@types/undertaker": "*",
+            "@types/vinyl-fs": "*",
+            "chokidar": "^2.1.2"
+          },
+          "typesPublisherContentHash": "c31d50be7ae1b7d11298064d243d7ca4a67f0db63c4de1c948bcef6023f13fdd",
+          "typeScriptVersion": "2.0",
+          "_id": "@types/gulp@4.0.6",
+          "dist": {
+            "shasum": "68fe0e1f0ff3657cfca46fb564806b744a1bf899",
+            "size": 2614,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-4.0.6.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-4.0.6.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmUser": {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          },
+          "directories": {},
+          "_npmOperationalInternal": {
+            "host": "s3://npm-registry-packages",
+            "tmp": "tmp/gulp_4.0.6_1551807662788_0.5933289685006833"
+          },
+          "_hasShrinkwrap": false,
+          "publish_time": 1551807662906,
+          "_cnpm_publish_time": 1551807662906
+        },
+        "3.8.36": {
+          "name": "@types/gulp",
+          "version": "3.8.36",
+          "description": "TypeScript definitions for Gulp",
+          "license": "MIT",
+          "contributors": [
+            {
+              "name": "Drew Noakes",
+              "url": "https://drewnoakes.com"
+            }
+          ],
+          "main": "",
+          "repository": {
+            "type": "git",
+            "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+          },
+          "scripts": {},
+          "dependencies": {
+            "@types/orchestrator": "*",
+            "@types/vinyl": "*",
+            "@types/node": "*"
+          },
+          "typesPublisherContentHash": "b9043dc390a930abafe80fcd40eeb20952e87587b4da6e50e49fd05aa8aab223",
+          "typeScriptVersion": "2.3",
+          "_id": "@types/gulp@3.8.36",
+          "dist": {
+            "shasum": "11eaf583bf0534669b4ffa9bfed51557faa00a4c",
+            "size": 4418,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-3.8.36.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-3.8.36.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmUser": {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          },
+          "_npmOperationalInternal": {
+            "host": "s3://npm-registry-packages",
+            "tmp": "tmp/gulp-3.8.36.tgz_1513899029896_0.12496638903394341"
+          },
+          "directories": {},
+          "publish_time": 1513899030042,
+          "_hasShrinkwrap": false,
+          "_cnpm_publish_time": 1513899030042
+        },
+        "3.8.35": {
+          "name": "@types/gulp",
+          "version": "3.8.35",
+          "description": "TypeScript definitions for Gulp",
+          "license": "MIT",
+          "contributors": [
+            {
+              "name": "Drew Noakes",
+              "url": "https://drewnoakes.com"
+            }
+          ],
+          "main": "",
+          "repository": {
+            "type": "git",
+            "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+          },
+          "scripts": {},
+          "dependencies": {
+            "@types/orchestrator": "*",
+            "@types/vinyl": "*",
+            "@types/node": "*"
+          },
+          "typesPublisherContentHash": "30c9f222d457584ce044d2a61131023f31370da8673e3e376c37eb32f1754aff",
+          "typeScriptVersion": "2.3",
+          "_id": "@types/gulp@3.8.35",
+          "dist": {
+            "shasum": "352a308070ca5c5bd52cf6b676d2273f2a4f9b65",
+            "size": 4429,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-3.8.35.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-3.8.35.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmUser": {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          },
+          "_npmOperationalInternal": {
+            "host": "s3://npm-registry-packages",
+            "tmp": "tmp/gulp-3.8.35.tgz_1510181064012_0.5288444680627435"
+          },
+          "directories": {},
+          "publish_time": 1510181064224,
+          "_hasShrinkwrap": false,
+          "_cnpm_publish_time": 1510181064224
+        },
+        "3.8.34": {
+          "name": "@types/gulp",
+          "version": "3.8.34",
+          "description": "TypeScript definitions for Gulp",
+          "license": "MIT",
+          "contributors": [
+            {
+              "name": "Drew Noakes",
+              "url": "https://drewnoakes.com"
+            }
+          ],
+          "main": "",
+          "repository": {
+            "type": "git",
+            "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+          },
+          "scripts": {},
+          "dependencies": {
+            "@types/orchestrator": "*",
+            "@types/vinyl": "*",
+            "@types/node": "*"
+          },
+          "typesPublisherContentHash": "5bd418408e2c13ff308b7a8dade882a65b66e21da1a402f40b197177f7e43343",
+          "typeScriptVersion": "2.0",
+          "_id": "@types/gulp@3.8.34",
+          "dist": {
+            "shasum": "4feafe428900cd818e104415e7d4e9f74c104b94",
+            "size": 4418,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-3.8.34.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-3.8.34.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmUser": {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          },
+          "_npmOperationalInternal": {
+            "host": "s3://npm-registry-packages",
+            "tmp": "tmp/gulp-3.8.34.tgz_1509722516782_0.837540527805686"
+          },
+          "directories": {},
+          "publish_time": 1509722517147,
+          "_hasShrinkwrap": false,
+          "_cnpm_publish_time": 1509722517147
+        },
+        "4.0.5": {
+          "name": "@types/gulp",
+          "version": "4.0.5",
+          "description": "TypeScript definitions for Gulp",
+          "license": "MIT",
+          "contributors": [
+            {
+              "name": "Drew Noakes",
+              "url": "https://drewnoakes.com"
+            },
+            {
+              "name": "Juan Arroyave",
+              "url": "http://jarroyave.co"
+            },
+            {
+              "name": "Giedrius Grabauskas",
+              "url": "https://github.com/GiedriusGrabauskas",
+              "githubUsername": "GiedriusGrabauskas"
+            }
+          ],
+          "main": "",
+          "repository": {
+            "type": "git",
+            "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+          },
+          "scripts": {},
+          "dependencies": {
+            "@types/vinyl-fs": "*",
+            "@types/chokidar": "*",
+            "@types/undertaker": "*"
+          },
+          "typesPublisherContentHash": "67c6b0be443deef92921204192e0f15d2ceb9a18723cf748ca9fec20a604f326",
+          "typeScriptVersion": "2.0",
+          "_id": "@types/gulp@4.0.5",
+          "dist": {
+            "shasum": "f5f498d5bf9538364792de22490a12c0e6bc5eb4",
+            "size": 2611,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-4.0.5.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-4.0.5.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmUser": {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          },
+          "_npmOperationalInternal": {
+            "host": "s3://npm-registry-packages",
+            "tmp": "tmp/gulp-4.0.5.tgz_1508890972796_0.14889611606486142"
+          },
+          "directories": {},
+          "publish_time": 1508890972853,
+          "_hasShrinkwrap": false,
+          "_cnpm_publish_time": 1508890972853
+        },
+        "3.8.33": {
+          "name": "@types/gulp",
+          "version": "3.8.33",
+          "description": "TypeScript definitions for Gulp",
+          "license": "MIT",
+          "contributors": [
+            {
+              "name": "Drew Noakes",
+              "url": "https://drewnoakes.com"
+            }
+          ],
+          "main": "",
+          "repository": {
+            "type": "git",
+            "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+          },
+          "scripts": {},
+          "dependencies": {
+            "@types/orchestrator": "*",
+            "@types/vinyl": "*",
+            "@types/node": "*"
+          },
+          "peerDependencies": {},
+          "typesPublisherContentHash": "1f30ab958eb2a378000450c14396fe316756b49d0be71ac260521c88e3a83480",
+          "typeScriptVersion": "2.0",
+          "_id": "@types/gulp@3.8.33",
+          "dist": {
+            "shasum": "b1b076820738c9c4eb7808cd926bff1683e1c2ab",
+            "size": 4426,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-3.8.33.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-3.8.33.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmUser": {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          },
+          "_npmOperationalInternal": {
+            "host": "s3://npm-registry-packages",
+            "tmp": "tmp/gulp-3.8.33.tgz_1497631166958_0.5848263413645327"
+          },
+          "directories": {},
+          "publish_time": 1497631167892,
+          "_hasShrinkwrap": false,
+          "_cnpm_publish_time": 1497631167892
+        },
+        "4.0.4": {
+          "name": "@types/gulp",
+          "version": "4.0.4",
+          "description": "TypeScript definitions for Gulp",
+          "license": "MIT",
+          "contributors": [
+            {
+              "name": "Drew Noakes",
+              "url": "https://drewnoakes.com"
+            },
+            {
+              "name": "Juan Arroyave",
+              "url": "http://jarroyave.co"
+            },
+            {
+              "name": "Giedrius Grabauskas",
+              "url": "https://github.com/GiedriusGrabauskas"
+            }
+          ],
+          "main": "",
+          "repository": {
+            "type": "git",
+            "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+          },
+          "scripts": {},
+          "dependencies": {
+            "@types/vinyl-fs": "*",
+            "@types/chokidar": "*",
+            "@types/undertaker": "*"
+          },
+          "peerDependencies": {},
+          "typesPublisherContentHash": "7820d9849eca4b65034bd57686b2d970d184d154a3bdd22375edee61e0607127",
+          "typeScriptVersion": "2.0",
+          "_id": "@types/gulp@4.0.4",
+          "dist": {
+            "shasum": "753ffe5b0ddaf0c9a60101b346141bb80e602f25",
+            "size": 2609,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-4.0.4.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-4.0.4.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmUser": {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          },
+          "_npmOperationalInternal": {
+            "host": "s3://npm-registry-packages",
+            "tmp": "tmp/gulp-4.0.4.tgz_1496758770743_0.9541659066453576"
+          },
+          "directories": {},
+          "publish_time": 1496758770830,
+          "_hasShrinkwrap": false,
+          "_cnpm_publish_time": 1496758770830
+        },
+        "4.0.3": {
+          "name": "@types/gulp",
+          "version": "4.0.3",
+          "description": "TypeScript definitions for Gulp",
+          "license": "MIT",
+          "contributors": [
+            {
+              "name": "Drew Noakes",
+              "url": "https://drewnoakes.com"
+            },
+            {
+              "name": "Juan Arroyave",
+              "url": "http://jarroyave.co"
+            }
+          ],
+          "main": "",
+          "repository": {
+            "type": "git",
+            "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+          },
+          "scripts": {},
+          "dependencies": {
+            "@types/orchestrator": "*",
+            "@types/vinyl": "*",
+            "@types/node": "*"
+          },
+          "peerDependencies": {},
+          "typesPublisherContentHash": "585a7600079ae0d83b153f7b09fdb83a99f8f2c60c4990b542f765423cd3c6da",
+          "typeScriptVersion": "2.0",
+          "_id": "@types/gulp@4.0.3",
+          "dist": {
+            "shasum": "6c5a990678bfdbb894ebb9f113ccdf82b1b9d547",
+            "size": 4891,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-4.0.3.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-4.0.3.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmUser": {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          },
+          "_npmOperationalInternal": {
+            "host": "packages-12-west.internal.npmjs.com",
+            "tmp": "tmp/gulp-4.0.3.tgz_1495145340101_0.18260436970740557"
+          },
+          "directories": {},
+          "publish_time": 1495145340348,
+          "_hasShrinkwrap": false,
+          "_cnpm_publish_time": 1495145340348
+        },
+        "4.0.2": {
+          "name": "@types/gulp",
+          "version": "4.0.2",
+          "description": "TypeScript definitions for Gulp",
+          "license": "MIT",
+          "contributors": [
+            {
+              "name": "Drew Noakes",
+              "url": "https://drewnoakes.com"
+            },
+            {
+              "name": "Juan Arroyave",
+              "url": "http://jarroyave.co"
+            }
+          ],
+          "main": "",
+          "repository": {
+            "type": "git",
+            "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+          },
+          "scripts": {},
+          "dependencies": {
+            "@types/orchestrator": "*",
+            "@types/vinyl": "*",
+            "@types/node": "*"
+          },
+          "peerDependencies": {},
+          "typesPublisherContentHash": "71587133d109ec805fcd22c59490bbfec23bf68fce9c4a2781a9cc829b27b204",
+          "typeScriptVersion": "2.0",
+          "_id": "@types/gulp@4.0.2",
+          "dist": {
+            "shasum": "71133c16a3c6f5ed17ee8094694be7824ed7d6f3",
+            "size": 4164,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-4.0.2.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-4.0.2.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmUser": {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          },
+          "_npmOperationalInternal": {
+            "host": "packages-12-west.internal.npmjs.com",
+            "tmp": "tmp/gulp-4.0.2.tgz_1489675007503_0.19218966201879084"
+          },
+          "directories": {},
+          "publish_time": 1489675007730,
+          "_cnpm_publish_time": 1489675007730,
+          "_hasShrinkwrap": false
+        },
+        "4.0.1": {
+          "name": "@types/gulp",
+          "version": "4.0.1",
+          "description": "TypeScript definitions for Gulp",
+          "license": "MIT",
+          "contributors": [
+            {
+              "name": "Drew Noakes",
+              "url": "https://drewnoakes.com"
+            },
+            {
+              "name": "Juan Arroyave",
+              "url": "http://jarroyave.co"
+            }
+          ],
+          "main": "",
+          "repository": {
+            "type": "git",
+            "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+          },
+          "scripts": {},
+          "dependencies": {
+            "@types/orchestrator": "*",
+            "@types/vinyl": "*",
+            "@types/node": "*"
+          },
+          "peerDependencies": {},
+          "typesPublisherContentHash": "629e2be669215412827cb7a46fafff5ba701cc05702298d2121e51e843cd0b34",
+          "typeScriptVersion": "2.0",
+          "_id": "@types/gulp@4.0.1",
+          "dist": {
+            "shasum": "56d2b4c2d1c4ee0f2bfce5808f4ac7e13ebf5f33",
+            "size": 4163,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-4.0.1.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-4.0.1.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmUser": {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          },
+          "_npmOperationalInternal": {
+            "host": "packages-18-east.internal.npmjs.com",
+            "tmp": "tmp/gulp-4.0.1.tgz_1489541519932_0.6200938946567476"
+          },
+          "directories": {},
+          "publish_time": 1489541521844,
+          "_cnpm_publish_time": 1489541521844,
+          "_hasShrinkwrap": false
+        },
+        "4.0.0": {
+          "name": "@types/gulp",
+          "version": "4.0.0",
+          "description": "TypeScript definitions for Gulp",
+          "license": "MIT",
+          "contributors": [
+            {
+              "name": "Drew Noakes",
+              "url": "https://drewnoakes.com"
+            },
+            {
+              "name": "Juan Arroyave",
+              "url": "http://jarroyave.co"
+            }
+          ],
+          "main": "",
+          "repository": {
+            "type": "git",
+            "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+          },
+          "scripts": {},
+          "dependencies": {
+            "@types/orchestrator": "*",
+            "@types/vinyl": "*",
+            "@types/node": "*"
+          },
+          "peerDependencies": {},
+          "typesPublisherContentHash": "3edac1305123a992047c1dac3eb80751e136ec4e06dbc37d253833969ae0a8e8",
+          "typeScriptVersion": "2.0",
+          "_id": "@types/gulp@4.0.0",
+          "dist": {
+            "shasum": "b7eac5414397028cc0efc084c3af74af4b471c79",
+            "size": 4156,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-4.0.0.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-4.0.0.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmUser": {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          },
+          "_npmOperationalInternal": {
+            "host": "packages-18-east.internal.npmjs.com",
+            "tmp": "tmp/gulp-4.0.0.tgz_1489003360028_0.5745684269350022"
+          },
+          "directories": {},
+          "publish_time": 1489003361871,
+          "_cnpm_publish_time": 1489003361871,
+          "_hasShrinkwrap": false
+        },
+        "3.8.32": {
+          "name": "@types/gulp",
+          "version": "3.8.32",
+          "description": "TypeScript definitions for Gulp v3.8.x",
+          "license": "MIT",
+          "author": "Drew Noakes <https://drewnoakes.com>",
+          "main": "",
+          "repository": {
+            "type": "git",
+            "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+          },
+          "scripts": {},
+          "dependencies": {
+            "@types/orchestrator": "*",
+            "@types/vinyl": "*",
+            "@types/node": "*"
+          },
+          "typings": "index.d.ts",
+          "typesPublisherContentHash": "7127a171b79db3212bcc4843a13cd67a30267b68133fbdee452bca5ab424baaa",
+          "_id": "@types/gulp@3.8.32",
+          "dist": {
+            "shasum": "83c59c681cc233d1ec7f82d269555566fa133156",
+            "size": 3893,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-3.8.32.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-3.8.32.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmUser": {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          },
+          "_npmOperationalInternal": {
+            "host": "packages-12-west.internal.npmjs.com",
+            "tmp": "tmp/gulp-3.8.32.tgz_1474306543855_0.9870147597976029"
+          },
+          "directories": {},
+          "publish_time": 1474306544085,
+          "_cnpm_publish_time": 1474306544085,
+          "_hasShrinkwrap": false
+        },
+        "3.8.31": {
+          "name": "@types/gulp",
+          "version": "3.8.31",
+          "description": "TypeScript definitions for Gulp v3.8.x",
+          "license": "MIT",
+          "author": "Drew Noakes <https://drewnoakes.com>",
+          "main": "",
+          "repository": {
+            "type": "git",
+            "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+          },
+          "scripts": {},
+          "dependencies": {
+            "@types/orchestrator": "0.0.*",
+            "@types/node": "6.0.*"
+          },
+          "typings": "index.d.ts",
+          "_id": "@types/gulp@3.8.31",
+          "dist": {
+            "shasum": "a2e46f01e7e588e4a5270f74285a1d3d9e4ab6fb",
+            "size": 3885,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-3.8.31.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-3.8.31.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmUser": {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          },
+          "_npmOperationalInternal": {
+            "host": "packages-16-east.internal.npmjs.com",
+            "tmp": "tmp/gulp-3.8.31.tgz_1472150631432_0.19208235666155815"
+          },
+          "directories": {},
+          "publish_time": 1472150632017,
+          "_cnpm_publish_time": 1472150632017,
+          "_hasShrinkwrap": false
+        },
+        "3.8.30": {
+          "name": "@types/gulp",
+          "version": "3.8.30",
+          "description": "TypeScript definitions for Gulp v3.8.x",
+          "license": "MIT",
+          "author": "Drew Noakes <https://drewnoakes.com>",
+          "main": "",
+          "repository": {
+            "type": "git",
+            "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+          },
+          "scripts": {},
+          "dependencies": {
+            "@types/orchestrator": "0.0.*",
+            "@types/node": "6.0.*"
+          },
+          "typings": "index.d.ts",
+          "_id": "@types/gulp@3.8.30",
+          "dist": {
+            "shasum": "a05bd1da4eac17e9750b214a61176e506b0fd301",
+            "size": 3885,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-3.8.30.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-3.8.30.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmUser": {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          },
+          "_npmOperationalInternal": {
+            "host": "packages-12-west.internal.npmjs.com",
+            "tmp": "tmp/gulp-3.8.30.tgz_1471620413485_0.4588360304478556"
+          },
+          "directories": {},
+          "publish_time": 1471620415378,
+          "_cnpm_publish_time": 1471620415378,
+          "_hasShrinkwrap": false
+        },
+        "3.8.29": {
+          "name": "@types/gulp",
+          "version": "3.8.29",
+          "description": "TypeScript definitions for Gulp v3.8.x",
+          "license": "MIT",
+          "author": "Drew Noakes <https://drewnoakes.com>",
+          "main": "",
+          "repository": {
+            "type": "git",
+            "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+          },
+          "scripts": {},
+          "dependencies": {
+            "@types/orchestrator": "0.0.*",
+            "@types/node": "6.0.*"
+          },
+          "typings": "index.d.ts",
+          "_id": "@types/gulp@3.8.29",
+          "dist": {
+            "shasum": "9b7d3030ebf3c802d0b0f23f8299b2d8daa8d82c",
+            "size": 17920,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-3.8.29.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-3.8.29.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmUser": {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          },
+          "_npmOperationalInternal": {
+            "host": "packages-16-east.internal.npmjs.com",
+            "tmp": "tmp/gulp-3.8.29.tgz_1470153248351_0.5247470282483846"
+          },
+          "directories": {},
+          "publish_time": 1470153249332,
+          "_cnpm_publish_time": 1470153249332,
+          "_hasShrinkwrap": false
+        },
+        "3.8.28": {
+          "name": "@types/gulp",
+          "version": "3.8.28",
+          "description": "TypeScript definitions for Gulp v3.8.x",
+          "main": "",
+          "scripts": {},
+          "author": {
+            "name": "Drew Noakes",
+            "email": "https://drewnoakes.com"
+          },
+          "repository": {
+            "type": "git",
+            "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+          },
+          "license": "MIT",
+          "typings": "index.d.ts",
+          "dependencies": {
+            "@types/orchestrator": "0.0.*",
+            "@types/node": "4.0.*"
+          },
+          "_id": "@types/gulp@3.8.28",
+          "_shasum": "9528cff4674944140c2fdcb4bee2e94b0246f3d2",
+          "_from": "output\\gulp",
+          "_resolved": "file:output\\gulp",
+          "_npmVersion": "3.10.3",
+          "_nodeVersion": "6.3.0",
+          "_npmUser": {
+            "name": "types",
+            "email": "ts-npm-types@microsoft.com"
+          },
+          "dist": {
+            "shasum": "9528cff4674944140c2fdcb4bee2e94b0246f3d2",
+            "size": 3820,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-3.8.28.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-3.8.28.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmOperationalInternal": {
+            "host": "packages-16-east.internal.npmjs.com",
+            "tmp": "tmp/gulp-3.8.28.tgz_1468507501878_0.670617806725204"
+          },
+          "directories": {},
+          "publish_time": 1468507504666,
+          "_cnpm_publish_time": 1468507504666,
+          "_hasShrinkwrap": false
+        },
+        "3.8.27-alpha": {
+          "name": "@types/gulp",
+          "version": "3.8.27-alpha",
+          "description": "TypeScript definitions for Gulp v3.8.x",
+          "main": "",
+          "scripts": {},
+          "author": {
+            "name": "Drew Noakes",
+            "email": "https://drewnoakes.com"
+          },
+          "repository": {
+            "type": "git",
+            "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+          },
+          "license": "MIT",
+          "typings": "index.d.ts",
+          "dependencies": {
+            "@types/orchestrator": "1.5.28-alpha",
+            "@types/node": "4.0.27-alpha"
+          },
+          "_id": "@types/gulp@3.8.27-alpha",
+          "_shasum": "78e668353a87c922d21c40f83cf18a74c7b997fb",
+          "_from": "output\\gulp",
+          "_resolved": "file:output\\gulp",
+          "_npmVersion": "3.10.3",
+          "_nodeVersion": "6.3.0",
+          "_npmUser": {
+            "name": "types",
+            "email": "ryan.cavanaugh@microsoft.com"
+          },
+          "dist": {
+            "shasum": "78e668353a87c922d21c40f83cf18a74c7b997fb",
+            "size": 3826,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-3.8.27-alpha.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-3.8.27-alpha.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmOperationalInternal": {
+            "host": "packages-12-west.internal.npmjs.com",
+            "tmp": "tmp/gulp-3.8.27-alpha.tgz_1468008806996_0.7743383951019496"
+          },
+          "directories": {},
+          "publish_time": 1468008809453,
+          "_cnpm_publish_time": 1468008809453,
+          "_hasShrinkwrap": false
+        },
+        "3.8.26-alpha": {
+          "name": "@types/gulp",
+          "version": "3.8.26-alpha",
+          "description": "TypeScript definitions for Gulp v3.8.x",
+          "main": "",
+          "scripts": {},
+          "author": {
+            "name": "Drew Noakes",
+            "email": "https://drewnoakes.com"
+          },
+          "repository": {
+            "type": "git",
+            "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+          },
+          "license": "MIT",
+          "typings": "index.d.ts",
+          "dependencies": {
+            "@types/orchestrator": "1.5.26-alpha",
+            "@types/node": "4.0.26-alpha"
+          },
+          "_id": "@types/gulp@3.8.26-alpha",
+          "_shasum": "2df23b393987048a48d2435ed6e6bc2cc109a119",
+          "_from": "output\\gulp",
+          "_resolved": "file:output\\gulp",
+          "_npmVersion": "3.7.2",
+          "_nodeVersion": "6.2.1",
+          "_npmUser": {
+            "name": "types",
+            "email": "ryan.cavanaugh@microsoft.com"
+          },
+          "dist": {
+            "shasum": "2df23b393987048a48d2435ed6e6bc2cc109a119",
+            "size": 3824,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-3.8.26-alpha.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-3.8.26-alpha.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmOperationalInternal": {
+            "host": "packages-12-west.internal.npmjs.com",
+            "tmp": "tmp/gulp-3.8.26-alpha.tgz_1467591442460_0.8271510945633054"
+          },
+          "directories": {},
+          "publish_time": 1467591443051,
+          "_cnpm_publish_time": 1467591443051,
+          "_hasShrinkwrap": false
+        },
+        "3.8.25-alpha": {
+          "name": "@types/gulp",
+          "version": "3.8.25-alpha",
+          "description": "TypeScript definitions for Gulp v3.8.x",
+          "main": "",
+          "scripts": {},
+          "author": {
+            "name": "Drew Noakes",
+            "email": "https://drewnoakes.com"
+          },
+          "repository": {
+            "type": "git",
+            "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+          },
+          "license": "MIT",
+          "typings": "index.d.ts",
+          "dependencies": {
+            "@types/orchestrator": "1.5.24-alpha",
+            "@types/node": "4.0.24-alpha"
+          },
+          "_id": "@types/gulp@3.8.25-alpha",
+          "_shasum": "bd7538077731259f8c3e4ff42fc52751b2cf3eea",
+          "_from": "output\\gulp",
+          "_resolved": "file:output\\gulp",
+          "_npmVersion": "3.7.2",
+          "_nodeVersion": "6.2.1",
+          "_npmUser": {
+            "name": "types",
+            "email": "ryan.cavanaugh@microsoft.com"
+          },
+          "dist": {
+            "shasum": "bd7538077731259f8c3e4ff42fc52751b2cf3eea",
+            "size": 3832,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-3.8.25-alpha.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-3.8.25-alpha.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmOperationalInternal": {
+            "host": "packages-12-west.internal.npmjs.com",
+            "tmp": "tmp/gulp-3.8.25-alpha.tgz_1467423561955_0.10794114484451711"
+          },
+          "directories": {},
+          "publish_time": 1467423562471,
+          "_cnpm_publish_time": 1467423562471,
+          "_hasShrinkwrap": false
+        },
+        "3.8.24-alpha": {
+          "name": "@types/gulp",
+          "version": "3.8.24-alpha",
+          "description": "TypeScript definitions for Gulp v3.8.x",
+          "main": "",
+          "scripts": {},
+          "author": {
+            "name": "Drew Noakes",
+            "email": "https://drewnoakes.com"
+          },
+          "repository": {
+            "type": "git",
+            "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+          },
+          "license": "MIT",
+          "typings": "index.d.ts",
+          "dependencies": {
+            "@types/orchestrator": "1.5.23-alpha",
+            "@types/node": "4.0.23-alpha"
+          },
+          "_id": "@types/gulp@3.8.24-alpha",
+          "_shasum": "da4709f0e521c85c545f058fa01822841c4c4784",
+          "_from": "output\\gulp",
+          "_resolved": "file:output\\gulp",
+          "_npmVersion": "3.7.2",
+          "_nodeVersion": "6.2.1",
+          "_npmUser": {
+            "name": "types",
+            "email": "ryan.cavanaugh@microsoft.com"
+          },
+          "dist": {
+            "shasum": "da4709f0e521c85c545f058fa01822841c4c4784",
+            "size": 3827,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-3.8.24-alpha.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-3.8.24-alpha.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmOperationalInternal": {
+            "host": "packages-16-east.internal.npmjs.com",
+            "tmp": "tmp/gulp-3.8.24-alpha.tgz_1467413243941_0.8085376815870404"
+          },
+          "directories": {},
+          "publish_time": 1467413247114,
+          "_cnpm_publish_time": 1467413247114,
+          "_hasShrinkwrap": false
+        },
+        "3.8.23-alpha": {
+          "name": "@types/gulp",
+          "version": "3.8.23-alpha",
+          "description": "TypeScript definitions for Gulp v3.8.x",
+          "main": "",
+          "scripts": {},
+          "author": {
+            "name": "Drew Noakes",
+            "email": "https://drewnoakes.com"
+          },
+          "repository": {
+            "type": "git",
+            "url": "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+          },
+          "license": "MIT",
+          "typings": "index.d.ts",
+          "dependencies": {
+            "@types/orchestrator": "1.5.*",
+            "@types/node": "4.0.*"
+          },
+          "_id": "@types/gulp@3.8.23-alpha",
+          "_shasum": "c3bbccc1a1d18a1fc23ec1fe03b12cffa2e01686",
+          "_from": "output\\gulp",
+          "_resolved": "file:output\\gulp",
+          "_npmVersion": "3.9.5",
+          "_nodeVersion": "6.2.2",
+          "_npmUser": {
+            "name": "types",
+            "email": "ryan.cavanaugh@microsoft.com"
+          },
+          "dist": {
+            "shasum": "c3bbccc1a1d18a1fc23ec1fe03b12cffa2e01686",
+            "size": 3813,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-3.8.23-alpha.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-3.8.23-alpha.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmOperationalInternal": {
+            "host": "packages-16-east.internal.npmjs.com",
+            "tmp": "tmp/gulp-3.8.23-alpha.tgz_1467401381921_0.8102102424018085"
+          },
+          "directories": {},
+          "publish_time": 1467401385671,
+          "_cnpm_publish_time": 1467401385671,
+          "_hasShrinkwrap": false
+        },
+        "3.8.22-alpha": {
+          "name": "@types/gulp",
+          "version": "3.8.22-alpha",
+          "description": "TypeScript definitions for Gulp v3.8.x",
+          "main": "",
+          "scripts": {},
+          "author": {
+            "name": "Drew Noakes",
+            "email": "https://drewnoakes.com"
+          },
+          "license": "MIT",
+          "typings": "index.d.ts",
+          "dependencies": {
+            "@types/orchestrator": "*",
+            "@types/node": "*"
+          },
+          "_id": "@types/gulp@3.8.22-alpha",
+          "_shasum": "3fc1c587328996455123fb8a9ad50c2801f68637",
+          "_from": "output\\gulp",
+          "_resolved": "file:output\\gulp",
+          "_npmVersion": "3.8.2",
+          "_nodeVersion": "5.5.0",
+          "_npmUser": {
+            "name": "types",
+            "email": "ryan.cavanaugh@microsoft.com"
+          },
+          "dist": {
+            "shasum": "3fc1c587328996455123fb8a9ad50c2801f68637",
+            "size": 3800,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-3.8.22-alpha.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-3.8.22-alpha.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmOperationalInternal": {
+            "host": "packages-16-east.internal.npmjs.com",
+            "tmp": "tmp/gulp-3.8.22-alpha.tgz_1464152405761_0.2179468898102641"
+          },
+          "directories": {},
+          "publish_time": 1464152408215,
+          "_cnpm_publish_time": 1464152408215,
+          "_hasShrinkwrap": false
+        },
+        "3.8.21-alpha": {
+          "name": "@types/gulp",
+          "version": "3.8.21-alpha",
+          "description": "TypeScript definitions for Gulp v3.8.x",
+          "main": "",
+          "scripts": {},
+          "author": {
+            "name": "Drew Noakes",
+            "email": "https://drewnoakes.com"
+          },
+          "license": "MIT",
+          "typings": "index.d.ts",
+          "dependencies": {
+            "@types/orchestrator": "*",
+            "@types/node": "*"
+          },
+          "_id": "@types/gulp@3.8.21-alpha",
+          "_shasum": "9578d77cbd385f47dfa46d702c0911df440c2c4f",
+          "_from": "output\\gulp",
+          "_resolved": "file:output\\gulp",
+          "_npmVersion": "3.8.2",
+          "_nodeVersion": "5.5.0",
+          "_npmUser": {
+            "name": "types",
+            "email": "ryan.cavanaugh@microsoft.com"
+          },
+          "dist": {
+            "shasum": "9578d77cbd385f47dfa46d702c0911df440c2c4f",
+            "size": 3794,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-3.8.21-alpha.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-3.8.21-alpha.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmOperationalInternal": {
+            "host": "packages-16-east.internal.npmjs.com",
+            "tmp": "tmp/gulp-3.8.21-alpha.tgz_1463773312845_0.4490002088714391"
+          },
+          "directories": {},
+          "publish_time": 1463773314846,
+          "_cnpm_publish_time": 1463773314846,
+          "_hasShrinkwrap": false
+        },
+        "3.8.16-alpha": {
+          "name": "@types/gulp",
+          "version": "3.8.16-alpha",
+          "description": "Type definitions for Gulp v3.8.x from https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+          "main": "",
+          "scripts": {},
+          "author": {
+            "name": "Drew Noakes",
+            "email": "https://drewnoakes.com"
+          },
+          "license": "MIT",
+          "typings": "index.d.ts",
+          "dependencies": {
+            "equire(\"orchestrator\"": "*",
+            "@types/node": "*",
+            "@types/orchestrator": "*"
+          },
+          "_id": "@types/gulp@3.8.16-alpha",
+          "_shasum": "24a6cbdbda43a6ceae9c9ba49098c0729e6b99af",
+          "_from": "output\\gulp",
+          "_resolved": "file:output\\gulp",
+          "_npmVersion": "3.8.2",
+          "_nodeVersion": "5.5.0",
+          "_npmUser": {
+            "name": "types",
+            "email": "ryan.cavanaugh@microsoft.com"
+          },
+          "dist": {
+            "shasum": "24a6cbdbda43a6ceae9c9ba49098c0729e6b99af",
+            "size": 3827,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-3.8.16-alpha.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-3.8.16-alpha.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmOperationalInternal": {
+            "host": "packages-16-east.internal.npmjs.com",
+            "tmp": "tmp/gulp-3.8.16-alpha.tgz_1463691709816_0.38259818591177464"
+          },
+          "directories": {},
+          "publish_time": 1463691713685,
+          "_cnpm_publish_time": 1463691713685,
+          "_hasShrinkwrap": false
+        },
+        "3.8.15-alpha": {
+          "name": "@types/gulp",
+          "version": "3.8.15-alpha",
+          "description": "Type definitions for Gulp v3.8.x from https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+          "main": "",
+          "scripts": {},
+          "author": {
+            "name": "Drew Noakes",
+            "email": "https://drewnoakes.com"
+          },
+          "license": "MIT",
+          "typings": "index.d.ts",
+          "dependencies": {
+            "equire(\"orchestrator\"": "*"
+          },
+          "_id": "@types/gulp@3.8.15-alpha",
+          "_shasum": "f32c09461a2e12fd79ba6802b3bf2ca09fb4e13a",
+          "_from": "output\\gulp",
+          "_resolved": "file:output\\gulp",
+          "_npmVersion": "3.8.2",
+          "_nodeVersion": "5.5.0",
+          "_npmUser": {
+            "name": "types",
+            "email": "ryan.cavanaugh@microsoft.com"
+          },
+          "dist": {
+            "shasum": "f32c09461a2e12fd79ba6802b3bf2ca09fb4e13a",
+            "size": 3782,
+            "noattachment": false,
+            "key": "/@types/gulp/-/@types/gulp-3.8.15-alpha.tgz",
+            "tarball": "https://registry-npm.daojia-inc.com/@types/gulp/download/@types/gulp-3.8.15-alpha.tgz"
+          },
+          "maintainers": [
+            {
+              "name": "types",
+              "email": "ts-npm-types@microsoft.com"
+            }
+          ],
+          "_npmOperationalInternal": {
+            "host": "packages-16-east.internal.npmjs.com",
+            "tmp": "tmp/gulp-3.8.15-alpha.tgz_1463461417943_0.13200284098275006"
+          },
+          "directories": {},
+          "publish_time": 1463461421442,
+          "_cnpm_publish_time": 1463461421442,
+          "_hasShrinkwrap": false
+        }
+      },
+      "readme": "# Installation\r\n> `npm install --save @types/gulp`\r\n\r\n# Summary\r\nThis package contains type definitions for Gulp (http://gulpjs.com).\r\n\r\n# Details\r\nFiles were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/gulp/v3.\r\n\r\n### Additional Details\r\n * Last updated: Tue, 06 Jul 2021 20:33:09 GMT\r\n * Dependencies: [@types/orchestrator](https://npmjs.com/package/@types/orchestrator), [@types/vinyl](https://npmjs.com/package/@types/vinyl), [@types/node](https://npmjs.com/package/@types/node)\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by [Drew Noakes](https://drewnoakes.com).\r\n",
+      "_attachments": {},
+      "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/gulp",
+      "license": "MIT",
+      "cachedAt": 1681909627054
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "No matching version found for @types/gulp@^4.0.10",
+      "code": "ERR_PNPM_NO_MATCHING_VERSION",
+      "stack": "pnpm: No matching version found for @types/gulp@^4.0.10\n    at resolveNpm (C:\\Users\\daojia\\AppData\\Roaming\\nvm\\v14.21.3\\node_modules\\pnpm\\dist\\pnpm.cjs:84481:15)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async Object.resolve (C:\\Users\\daojia\\AppData\\Roaming\\nvm\\v14.21.3\\node_modules\\pnpm\\dist\\pnpm.cjs:84663:28)\n    at async run (C:\\Users\\daojia\\AppData\\Roaming\\nvm\\v14.21.3\\node_modules\\pnpm\\dist\\pnpm.cjs:91126:23)"
+    }
+  }
+}
